@@ -22,7 +22,7 @@ var server = new Protocol(options);
 
 server.then(function () {
     console.log('The server has been started at port 25566!');
-},function (error) {
+}, function (error) {
     console.error('Could not start the server!');
     console.error(err);
     process.exit(1);

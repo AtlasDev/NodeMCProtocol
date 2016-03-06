@@ -1,0 +1,29 @@
+{
+  "name": "nodemcprotocol",
+  "version": "0.1.0",
+  "description": "Minecraft server protocol written in Node.JS",
+  "main": "./lib/server.js",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "uuid": "^2.0.1",
+    "varint": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: Tests not yet implemented\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtlasDev/NodeMCProtocol.git"
+  },
+  "keywords": [
+    "minecraft",
+    "server"
+  ],
+  "author": "Dany Sluijk <dany@atlasdev.nl> (https://atlasdev.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtlasDev/NodeMCProtocol/issues"
+  },
+  "homepage": "https://github.com/AtlasDev/NodeMCProtocol#readme"
+}
