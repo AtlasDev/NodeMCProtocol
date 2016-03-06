@@ -8,7 +8,7 @@ first you need to include the protocol into your project:
 
 `npm install nodemcprotocol --save`
 
-Now it is time to create a server, you can make some changes to the config if you want. The default config is found [here](github.com/AtlasDev/NodeMCProtocol/blob/master/lib/config.default.js).
+Now it is time to create a server, you can make some changes to the config if you want. The default config is found [here](github.com/AtlasDev/NodeMCProtocol/blob/master/lib/config.default.json).
 
 The object creation returns a promis, like a lot of things in NodeMCProtocol.
 ```JavaScript
