@@ -12,9 +12,9 @@ Now it is time to create a server, you can make some changes to the config if yo
 
 The object creation returns a promis, like a lot of things in NodeMCProtocol.
 ```JavaScript
-var Protocol = require('nodemcprotocol');
+const Protocol = require('nodemcprotocol');
 
-var options = {
+const options = {
     port: 25566
 }
 
@@ -28,3 +28,6 @@ server.then(function () {
     process.exit(1);
 });
 ```
+
+#### What now?
+NodeMCProtocol is completely modable. Take a look at the [wiki](https://github.com/AtlasDev/NodeMCProtocol/wiki) for the documentation!
