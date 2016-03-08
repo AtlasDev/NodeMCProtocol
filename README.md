@@ -3,6 +3,9 @@ Minecraft server protocol written in Node.JS. I'm working on it to learn stuff, 
 
  > **Watch out!** This project is very mutch in process and very mutch unstable, not recommented to use in any way at this point. Shoot me a message if you want to help at the project.
 
+## Features:
+ - 
+
 ## How to use:
 first you need to include the protocol into your project:
 
