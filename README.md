@@ -3,6 +3,9 @@ Minecraft server protocol written in Node.JS. I'm working on it to learn stuff, 
 
  > **Watch out!** This project is very mutch in process and very mutch unstable, not recommented to use in any way at this point. Shoot me a message if you want to help at the project.
 
+## Features:
+ - 
+
 ## How to use:
 first you need to include the protocol into your project:
 
@@ -12,9 +15,9 @@ Now it is time to create a server, you can make some changes to the config if yo
 
 The object creation returns a promis, like a lot of things in NodeMCProtocol.
 ```JavaScript
-var Protocol = require('nodemcprotocol');
+const Protocol = require('nodemcprotocol');
 
-var options = {
+const options = {
     port: 25566
 }
 
@@ -22,9 +25,12 @@ var server = new Protocol(options);
 
 server.then(function () {
     console.log('The server has been started at port 25566!');
-},function (error) {
+}, function (error) {
     console.error('Could not start the server!');
     console.error(err);
     process.exit(1);
 });
 ```
+
+#### What now?
+NodeMCProtocol is completely modable. Take a look at the [wiki](https://github.com/AtlasDev/NodeMCProtocol/wiki) for the documentation!
