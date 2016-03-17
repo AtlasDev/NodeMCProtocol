@@ -5,6 +5,7 @@
   "main": "./lib/server.js",
   "dependencies": {
     "bluebird": "^3.3.3",
+    "keypair": "^1.0.0",
     "uuid": "^2.0.1",
     "varint": "^4.0.0"
   },
